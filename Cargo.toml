@@ -1,0 +1,15 @@
+[package]
+name = "num-conv-wasm"
+version = "0.1.0"
+authors = ["Daniel Bevan daniel.j.bevan96@gmail.com"]
+description = "An efficient utility to convert single digit whole integers into their full word
+counterparts"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/Dbevan770/num-converter-wasm"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.92"
